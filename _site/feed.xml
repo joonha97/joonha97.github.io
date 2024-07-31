@@ -2,9 +2,9 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://localhost:4000/</id>
-  <title>Chirpy</title>
+  <title>Joonha Lee</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-07-31T19:42:35+08:00</updated>
+  <updated>2024-08-01T01:04:56+09:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>http://localhost:4000/</uri>
@@ -22,9 +22,9 @@
   <entry>
     <title>Customize the Favicon</title>
     <link href="http://localhost:4000/posts/customize-the-favicon/" rel="alternate" type="text/html" title="Customize the Favicon" />
-    <published>2019-08-11T00:34:00+08:00</published>
+    <published>2019-08-11T01:34:00+09:00</published>
   
-    <updated>2019-08-11T00:34:00+08:00</updated>
+    <updated>2019-08-11T01:34:00+09:00</updated>
   
     <id>http://localhost:4000/posts/customize-the-favicon/</id>
     <content src="http://localhost:4000/posts/customize-the-favicon/" />
@@ -50,11 +50,37 @@ Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and th
 
   
   <entry>
+    <title>Hello by Joonha</title>
+    <link href="http://localhost:4000/posts/hello-world/" rel="alternate" type="text/html" title="Hello by Joonha" />
+    <published>2019-08-09T21:55:00+09:00</published>
+  
+    <updated>2019-08-09T21:55:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/hello-world/</id>
+    <content src="http://localhost:4000/posts/hello-world/" />
+    <author>
+      <name>cotes</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Tutorial" />
+    
+  
+
+  <summary>Get started with Chirpy basics in this comprehensive overview. You will learn how to install, configure, and use your first Chirpy-based website, as well as deploy it to a web server.</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>Getting Started</title>
     <link href="http://localhost:4000/posts/getting-started/" rel="alternate" type="text/html" title="Getting Started" />
-    <published>2019-08-09T20:55:00+08:00</published>
+    <published>2019-08-09T21:55:00+09:00</published>
   
-    <updated>2019-08-09T20:55:00+08:00</updated>
+    <updated>2019-08-09T21:55:00+09:00</updated>
   
     <id>http://localhost:4000/posts/getting-started/</id>
     <content src="http://localhost:4000/posts/getting-started/" />
@@ -78,9 +104,9 @@ Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and th
   <entry>
     <title>Writing a New Post</title>
     <link href="http://localhost:4000/posts/write-a-new-post/" rel="alternate" type="text/html" title="Writing a New Post" />
-    <published>2019-08-08T14:10:00+08:00</published>
+    <published>2019-08-08T15:10:00+09:00</published>
   
-    <updated>2019-08-08T14:10:00+08:00</updated>
+    <updated>2019-08-08T15:10:00+09:00</updated>
   
     <id>http://localhost:4000/posts/write-a-new-post/</id>
     <content src="http://localhost:4000/posts/write-a-new-post/" />
@@ -108,9 +134,9 @@ Create a new file named YYYY-MM-DD-TITLE.EXTENSION and put it in the _posts of t
   <entry>
     <title>Text and Typography</title>
     <link href="http://localhost:4000/posts/text-and-typography/" rel="alternate" type="text/html" title="Text and Typography" />
-    <published>2019-08-08T11:33:00+08:00</published>
+    <published>2019-08-08T12:33:00+09:00</published>
   
-    <updated>2019-08-08T11:33:00+08:00</updated>
+    <updated>2019-08-08T12:33:00+09:00</updated>
   
     <id>http://localhost:4000/posts/text-and-typography/</id>
     <content src="http://localhost:4000/posts/text-and-typography/" />

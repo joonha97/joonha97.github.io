@@ -36,7 +36,7 @@
 <meta property="og:description" content="A minimal, responsive and feature-rich Jekyll theme for technical writing." />
 <link rel="canonical" href="http://localhost:4000/tags/getting-started/" />
 <meta property="og:url" content="http://localhost:4000/tags/getting-started/" />
-<meta property="og:site_name" content="Chirpy" />
+<meta property="og:site_name" content="Joonha Lee" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="getting started" />
@@ -46,7 +46,7 @@
 <!-- End Jekyll SEO tag -->
 
 
-  <title>getting started | Chirpy
+  <title>getting started | Joonha Lee
   </title>
 
   <!--
@@ -63,8 +63,8 @@
   <link rel="manifest" href="/assets/img/favicons/site.webmanifest">
 
 <link rel="shortcut icon" href="/assets/img/favicons/favicon.ico">
-<meta name="apple-mobile-web-app-title" content="Chirpy">
-<meta name="application-name" content="Chirpy">
+<meta name="apple-mobile-web-app-title" content="Joonha Lee">
+<meta name="application-name" content="Joonha Lee">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="msapplication-config" content="/assets/img/favicons/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
@@ -236,10 +236,14 @@
 
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
   <header class="profile-wrapper">
-    <a href="/" id="avatar" class="rounded-circle"><img src="https://chirpy-img.netlify.app/commons/avatar.jpg" width="112" height="112" alt="avatar" onerror="this.style.display='none'"></a>
+    <a href="/" id="avatar" class="rounded-circle"><!-- (1) to use local asset, activate below -->
+      <img src="/assets/img/wallaby.jpg" width="112" height="112" alt="avatar"
+        onerror="this.style.display='none'">
+      <!-- (2) to get from url, activate below -->
+      <!-- <img src="https://chirpy-img.netlify.app/assets/img/wallaby.jpg" width="112" height="112" alt="avatar" onerror="this.style.display='none'"> --></a>
 
     <h1 class="site-title">
-      <a href="/">Chirpy</a>
+      <a href="/">Joonha Lee</a>
     </h1>
     <p class="site-subtitle fst-italic mb-0">A text-focused Jekyll theme</p>
   </header>
@@ -256,148 +260,101 @@
       </li>
       <!-- the real tabs -->
       
-        <li class="nav-item">
-          <a href="/categories/" class="nav-link">
-            <i class="fa-fw fas fa-stream"></i>
-            
+      <li class="nav-item">
+        <a href="/categories/" class="nav-link">
+          <i class="fa-fw fas fa-stream"></i>
+          
 
-            <span>CATEGORIES</span>
-          </a>
-        </li>
-        <!-- .nav-item -->
+          <span>CATEGORIES</span>
+        </a>
+      </li>
+      <!-- .nav-item -->
       
-        <li class="nav-item">
-          <a href="/tags/" class="nav-link">
-            <i class="fa-fw fas fa-tags"></i>
-            
+      <li class="nav-item">
+        <a href="/tags/" class="nav-link">
+          <i class="fa-fw fas fa-tags"></i>
+          
 
-            <span>TAGS</span>
-          </a>
-        </li>
-        <!-- .nav-item -->
+          <span>TAGS</span>
+        </a>
+      </li>
+      <!-- .nav-item -->
       
-        <li class="nav-item">
-          <a href="/archives/" class="nav-link">
-            <i class="fa-fw fas fa-archive"></i>
-            
+      <li class="nav-item">
+        <a href="/archives/" class="nav-link">
+          <i class="fa-fw fas fa-archive"></i>
+          
 
-            <span>ARCHIVES</span>
-          </a>
-        </li>
-        <!-- .nav-item -->
+          <span>ARCHIVES</span>
+        </a>
+      </li>
+      <!-- .nav-item -->
       
-        <li class="nav-item">
-          <a href="/about/" class="nav-link">
-            <i class="fa-fw fas fa-info-circle"></i>
-            
+      <li class="nav-item">
+        <a href="/about/" class="nav-link">
+          <i class="fa-fw fas fa-info-circle"></i>
+          
 
-            <span>ABOUT</span>
-          </a>
-        </li>
-        <!-- .nav-item -->
+          <span>ABOUT</span>
+        </a>
+      </li>
+      <!-- .nav-item -->
       
     </ul>
   </nav>
 
   <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
     
-      <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
-        <i class="fas fa-adjust"></i>
-      </button>
+    <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
+      <i class="fas fa-adjust"></i>
+    </button>
 
-      
-        <span class="icon-border"></span>
-      
+    
+    <span class="icon-border"></span>
+    
     
 
     
-      
-
-      
-        <a
-          href="https://github.com/github_username"
-          aria-label="github"
-          
-
-          
-            target="_blank"
-            
-          
-
-          
-
-          
-            rel="noopener noreferrer"
-          
-        >
-          <i class="fab fa-github"></i>
-        </a>
-      
     
-      
 
-      
-        <a
-          href="https://twitter.com/twitter_username"
-          aria-label="twitter"
-          
-
-          
-            target="_blank"
-            
-          
-
-          
-
-          
-            rel="noopener noreferrer"
-          
-        >
-          <i class="fa-brands fa-x-twitter"></i>
-        </a>
-      
     
-      
-
-      
-        <a
-          href="javascript:location.href = 'mailto:' + ['example','domain.com'].join('@')"
-          aria-label="email"
-          
-
-          
-
-          
-
-          
-        >
-          <i class="fas fa-envelope"></i>
-        </a>
-      
+    <a href="https://github.com/joonha97" aria-label="github"  
+      target="_blank"    
+      rel="noopener noreferrer" >
+      <i class="fab fa-github"></i>
+    </a>
     
-      
+    
+    
 
-      
-        <a
-          href="/feed.xml"
-          aria-label="rss"
-          
+    
+    <a href="https://twitter.com/twitter_username" aria-label="twitter"  
+      target="_blank"    
+      rel="noopener noreferrer" >
+      <i class="fa-brands fa-x-twitter"></i>
+    </a>
+    
+    
+    
 
-          
+    
+    <a href="javascript:location.href = 'mailto:' + ['example','domain.com'].join('@')" aria-label="email"    >
+      <i class="fas fa-envelope"></i>
+    </a>
+    
+    
+    
 
-          
-
-          
-        >
-          <i class="fas fa-rss"></i>
-        </a>
-      
+    
+    <a href="/feed.xml" aria-label="rss"    >
+      <i class="fas fa-rss"></i>
+    </a>
+    
     
   </div>
   <!-- .sidebar-bottom -->
 </aside>
 <!-- #sidebar -->
-
 
     <div id="main-wrapper" class="d-flex justify-content-center">
       <div class="container d-flex flex-column px-xxl-5">
@@ -482,9 +439,33 @@
   <h1 class="ps-lg-2">
     <i class="fa fa-tag fa-fw text-muted"></i>
     getting started
-    <span class="lead text-muted ps-2">1</span>
+    <span class="lead text-muted ps-2">2</span>
   </h1>
   <ul class="content ps-0">
+    
+      <li class="d-flex justify-content-between px-md-3">
+        <a href="/posts/hello-world/">Hello by Joonha</a>
+        <span class="dash flex-grow-1"></span>
+        <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+    class="text-muted small text-nowrap"
+  
+  data-ts="1565355300"
+  data-df="ll"
+  
+>
+  Aug  9, 2019
+</time>
+
+      </li>
     
       <li class="d-flex justify-content-between px-md-3">
         <a href="/posts/getting-started/">Getting Started</a>
@@ -559,6 +540,13 @@
         
         
         <li class="text-truncate lh-lg">
+          <a href="/posts/hello-world/">Hello by Joonha</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/posts/write-a-new-post/">Writing a New Post</a>
         </li>
       
@@ -595,17 +583,6 @@
     
     
     
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
   
     
     
@@ -615,20 +592,6 @@
         
         
 
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
   
     
     
@@ -650,7 +613,26 @@
     
     
     
+  
+    
+    
+    
+    
       
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
     
   
     
@@ -675,10 +657,10 @@
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/favicon/">favicon</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/getting-started/">getting started</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/getting-started/">getting started</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/favicon/">favicon</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/typography/">typography</a>
@@ -766,17 +748,6 @@
     
     
     
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
   
     
     
@@ -786,20 +757,6 @@
         
         
 
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
   
     
     
@@ -821,7 +778,26 @@
     
     
     
+  
+    
+    
+    
+    
       
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
     
   
     
@@ -846,10 +822,10 @@
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/favicon/">favicon</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/getting-started/">getting started</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/getting-started/">getting started</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/favicon/">favicon</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/typography/">typography</a>
