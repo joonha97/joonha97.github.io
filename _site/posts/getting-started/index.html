@@ -246,11 +246,11 @@
 
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
   <header class="profile-wrapper">
-    <a href="/" id="avatar" class="rounded-circle"><!-- (1) to use local asset, activate below -->
+    <a href="/" id="avatar" class="rounded-circle"><!-- (1) to use local asset, activate below
       <img src="/assets/img/wallaby.jpg" width="112" height="112" alt="avatar"
-        onerror="this.style.display='none'">
+        onerror="this.style.display='none'"> -->
       <!-- (2) to get from url, activate below -->
-      <!-- <img src="https://chirpy-img.netlify.app/assets/img/wallaby.jpg" width="112" height="112" alt="avatar" onerror="this.style.display='none'"> --></a>
+      <img src="/assets/img/wallaby.jpg" width="112" height="112" alt="avatar" onerror="this.style.display='none'"></a>
 
     <h1 class="site-title">
       <a href="/">Joonha Lee</a>
@@ -1089,8 +1089,8 @@
 <ol>
   <li>
     <p>Go to your repository on GitHub. Select the <em>Settings</em> tab, then click <em>Pages</em> in the left navigation bar. In the <strong>Source</strong> section (under <em>Build and deployment</em>), select <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow"><strong>GitHub Actions</strong></a> from the dropdown menu.<br />
-<a href="https://chirpy-img.netlify.app/posts/20180809/pages-source-light.png" class="popup img-link light border normal shimmer"><img src="https://chirpy-img.netlify.app/posts/20180809/pages-source-light.png" alt="Build source"  width="375" height="140" loading="lazy"></a>
-<a href="https://chirpy-img.netlify.app/posts/20180809/pages-source-dark.png" class="popup img-link dark normal shimmer"><img src="https://chirpy-img.netlify.app/posts/20180809/pages-source-dark.png" alt="Build source"  width="375" height="140" loading="lazy"></a></p>
+<a href="/posts/20180809/pages-source-light.png" class="popup img-link light border normal shimmer"><img src="/posts/20180809/pages-source-light.png" alt="Build source"  width="375" height="140" loading="lazy"></a>
+<a href="/posts/20180809/pages-source-dark.png" class="popup img-link dark normal shimmer"><img src="/posts/20180809/pages-source-dark.png" alt="Build source"  width="375" height="140" loading="lazy"></a></p>
   </li>
   <li>
     <p>Push any commits to GitHub to trigger the <em>Actions</em> workflow. In the <em>Actions</em> tab of your repository, you should see the workflow <em>Build and Deploy</em> running. Once the build is complete and successful, the site will be deployed automatically.</p>
@@ -1247,6 +1247,20 @@
         
         
         <li class="text-truncate lh-lg">
+          <a href="/posts/hooddak/">후딱 해치움에 관하여</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/proof-of-age/">Proof-of-Age (PoA): A Consensus Algorithm Encouraging Solo Mining</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/posts/customize-the-favicon/">Customize the Favicon</a>
         </li>
       
@@ -1255,20 +1269,6 @@
         
         <li class="text-truncate lh-lg">
           <a href="/posts/getting-started/">Getting Started</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/write-a-new-post/">Writing a New Post</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/text-and-typography/">Text and Typography</a>
         </li>
       
     </ul>
@@ -1472,6 +1472,30 @@
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
   
 
@@ -1498,6 +1522,34 @@
   <aside id="related-posts" aria-labelledby="related-label">
     <h3 class="mb-4" id="related-label">Further Reading</h3>
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/posts/hooddak/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1722430500"
+  data-df="ll"
+  
+>
+  Jul 31, 2024
+</time>
+
+              <h4 class="pt-0 my-2">후딱 해치움에 관하여</h4>
+              <div class="text-muted">
+                <p>Get started with Chirpy basics in this comprehensive overview. You will learn how to install, configure, and use your first Chirpy-based website, as well as deploy it to a web server.</p>
+              </div>
+            </div>
+          </a>
+        </article>
       
         <article class="col">
           <a href="/posts/hello-world/" class="post-preview card h-100">
@@ -1528,7 +1580,7 @@
         </article>
       
         <article class="col">
-          <a href="/posts/customize-the-favicon/" class="post-preview card h-100">
+          <a href="/posts/proof-of-age/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -1540,46 +1592,16 @@
 
 <time
   
-  data-ts="1565454840"
+  data-ts="1621555200"
   data-df="ll"
   
 >
-  Aug 11, 2019
+  May 21, 2021
 </time>
 
-              <h4 class="pt-0 my-2">Customize the Favicon</h4>
+              <h4 class="pt-0 my-2">Proof-of-Age (PoA): A Consensus Algorithm Encouraging Solo Mining</h4>
               <div class="text-muted">
-                <p>The favicons of Chirpy are placed in the directory assets/img/favicons/. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons...</p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
-          <a href="/posts/write-a-new-post/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1565244600"
-  data-df="ll"
-  
->
-  Aug  8, 2019
-</time>
-
-              <h4 class="pt-0 my-2">Writing a New Post</h4>
-              <div class="text-muted">
-                <p>This tutorial will guide you how to write a post in the Chirpy template, and it’s worth reading even if you’ve used Jekyll before, as many features require specific variables to be set.
-
-Naming and...</p>
+                <p>Introducing a consensus algorithm that undermines the performance of mining pools, which threatens the decentralization of Bitcoin, in order to promote solo mining.</p>
               </div>
             </div>
           </a>

@@ -7,11 +7,11 @@
       {%- capture avatar_url -%}
       {% include media-url.html src=site.avatar %}
       {%- endcapture -%}
-      <!-- (1) to use local asset, activate below -->
+      <!-- (1) to use local asset, activate below
       <img src="{{ site.avatar | relative_url }}" width="112" height="112" alt="avatar"
-        onerror="this.style.display='none'">
+        onerror="this.style.display='none'"> -->
       <!-- (2) to get from url, activate below -->
-      <!-- <img src="{{- avatar_url -}}" width="112" height="112" alt="avatar" onerror="this.style.display='none'"> -->
+      <img src="{{- avatar_url -}}" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
       {%- endif -%}
     </a>
 
